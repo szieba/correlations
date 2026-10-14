@@ -64,10 +64,11 @@ The available three-dimensional correlation table covers θ₂₃, Δm²₃ℓ, 
     Make sure the datasets directory is available at the path expected by the notebook.
     Run the notebook cells to view the examples, use the correlation-building function, and generate the plots.
 
-Data format
+## Data format
 
 The NuFIT datasets are provided as text files containing tabulated χ² values. Depending on the dataset, the tables describe one-, two-, or three-dimensional distributions.
-Citation
+
+## Citation
 
 If you use the code or other materials in this repository, please cite the associated publication:
 
@@ -80,9 +81,11 @@ I. Esteban et al., “NuFit-6.0: Updated global analysis of three-flavor neutrin
 Please also cite NuFIT 6.1 (2025) and acknowledge www.nu-fit.org.
 
 The license for the NuFIT data files is not specified on the NuFIT website. Any license applying to the original code and materials in this repository does not automatically apply to these third-party data files.
-Funding
+
+## Funding
 
 This work was supported by the Polish National Science Centre (NCN) under grant No. 2020/37/B/ST2/02371, the Research Excellence Initiative of the University of Silesia in Katowice, and the Swiss National Science Foundation (SNSF) under grant No. MAPS IZ11Z0 230193.
-Contact
 
-For questions about this repository, please contact [szymon.zieba@us.edu.pl].
+## Contact
+
+For questions about this repository, please contact szymon.zieba@us.edu.pl
