@@ -77,7 +77,7 @@ The NuFIT data files included in this repository were obtained from www.nu-fit.o
 
 I. Esteban et al., “NuFit-6.0: Updated global analysis of three-flavor neutrino oscillations,” JHEP 12 (2024) 216, https://doi.org/10.1007/JHEP12(2024)216, arXiv:2410.05380 [hep-ph].
 
-Please also cite NuFIT 6.0 (2024) and acknowledge www.nu-fit.org.
+Please also cite NuFIT 6.1 (2025) and acknowledge www.nu-fit.org.
 
 The license for the NuFIT data files is not specified on the NuFIT website. Any license applying to the original code and materials in this repository does not automatically apply to these third-party data files.
 Funding
