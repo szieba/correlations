@@ -8,9 +8,8 @@ The notebook includes usage examples and a function that constructs correlations
 
 ## Repository contents
 
-- **Mathematica notebook** — contains the analysis function, usage examples, and code for generating plots.
-- **`datasets/`** — contains NuFIT datasets in text format, used as input for the analysis.
-- **`correlations.tar.gz`** — a compressed archive containing all the materials in this repository.
+- **`correlations.nb`** — Mathematica notebook contains the analysis function, usage examples, and code for generating plots.
+- **`correlations.tar.gz`** — a compressed archive containing the Mathematica notebook and  NuFIT datasets in text format, used as input for the analysis.
 
 ## Oscillation parameters
 
