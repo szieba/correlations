@@ -100,14 +100,11 @@ Make sure the downloaded files and their paths match those expected by the Mathe
 
 ## How to use
 
-1. If you have downloaded the compressed archive, extract it in the directory where you want to use the files:
+1. Open `correlations.nb` in Mathematica.
+2. Make sure the `datasets` directory is in the location expected by the notebook.
+3. Run the notebook cells to explore the examples, use the correlation-building function, and generate plots.
 
-   ```bash
-  
-    Open the Mathematica notebook.
-    Make sure the datasets directory is available at the path expected by the notebook.
-    Run the notebook cells to view the examples, use the correlation-building function, and generate the plots.
-
+   
 ## Data format
 
 The NuFIT datasets are provided as text files containing tabulated χ² values. Depending on the dataset, the tables describe one-, two-, or three-dimensional distributions.
