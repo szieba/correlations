@@ -2,14 +2,13 @@
 
 ## Neutrino Mixing Schemes and NuFIT Correlations
 
-This repository contains materials for the publication *Correlations in Oscillation Data and Their Impact on Neutrino Mixing Models*. It provides a Mathematica notebook and NuFIT datasets for studying neutrino mixing schemes, including TM₁, TM₂, and partial μ–τ reflection symmetry.
+This repository contains materials for the publication *Correlations in Oscillation Data and Their Impact on Neutrino Mixing Models*. It provides a Mathematica notebook for studying neutrino mixing schemes, including TM₁, TM₂, and partial μ–τ reflection symmetry.
 
-The notebook includes usage examples and a function that constructs correlations involving up to six oscillation parameters from the available NuFIT correlation data. It also generates one-, two-, and three-dimensional plots of the resulting χ².
+The notebook includes usage examples and a function that constructs correlations involving up to six oscillation parameters from NuFIT correlation data. It also generates one-, two-, and three-dimensional plots of the resulting \(\chi^2\).
 
 ## Repository contents
 
-- **`correlations.nb`** — Mathematica notebook contains the analysis function, usage examples, and code for generating plots.
-- **`correlations.tar.gz`** — a compressed archive containing the Mathematica notebook and  NuFIT datasets in text format, used as input for the analysis.
+- **`correlations.nb`** — Mathematica notebook containing the analysis functions, usage examples, and code for generating plots.
 
 ## Oscillation parameters
 
@@ -26,7 +25,7 @@ In the rest of this description, the parameters are referred to using the standa
 
 ## Available NuFIT correlation data
 
-The analysis uses the NuFIT χ² datasets available for individual parameters and their correlations. The repository includes one-dimensional tables for θ₁₂, θ₁₃, θ₂₃, δCP, Δm²₂₁, and Δm²₃ℓ.
+The analysis uses NuFIT \(\chi^2\) datasets for individual parameters and their correlations. The required one-dimensional tables are for θ₁₂, θ₁₃, θ₂₃, δCP, Δm²₂₁, and Δm²₃ℓ.
 
 Available two-dimensional correlation tables cover:
 
@@ -51,14 +50,60 @@ The available three-dimensional correlation table covers θ₂₃, Δm²₃ℓ, 
 ## Requirements
 
 - Wolfram Mathematica
+- `wget` and `xz` (for downloading and extracting the datasets on Linux)
+
+## Downloading and preparing the NuFIT datasets
+
+The NuFIT datasets are not included in this repository. The following commands download the NuFIT data files for both normal ordering (NO) and inverted ordering (IO), then extract them into a `datasets` directory.
+
+Run the commands from the directory containing `correlations.nb`.
+
+### NuFIT 6.1
+
+
+```bash
+mkdir -p datasets
+cd datasets
+
+wget https://www.nu-fit.org/sites/default/files/v61.release-TByes-NO.txt.xz
+wget https://www.nu-fit.org/sites/default/files/v61.release-TByes-IO.txt.xz
+
+xz -d v61.release-TByes-NO.txt.xz
+xz -d v61.release-TByes-IO.txt.xz
+
+cd ..
+```
+### NuFIT 6.0
+```bash
+
+mkdir -p datasets
+cd datasets
+
+wget https://www.nu-fit.org/sites/default/files/v60.release-TByes-NO.txt.xz
+wget https://www.nu-fit.org/sites/default/files/v60.release-TByes-IO.txt.xz
+
+xz -d v60.release-TByes-NO.txt.xz
+xz -d v60.release-TByes-IO.txt.xz
+
+cd ..
+```
+The xz -d command decompresses each .xz file and removes the compressed version. To keep the .xz files after extraction, use xz -dk instead.
+
+After extraction, check that the files are present:
+```bash
+
+ls -lh datasets
+```
+Make sure the downloaded files and their paths match those expected by the Mathematica notebook.
+
+
 
 ## How to use
 
 1. If you have downloaded the compressed archive, extract it in the directory where you want to use the files:
 
    ```bash
-   tar -xzf correlations.tar.gz
-
+  
     Open the Mathematica notebook.
     Make sure the datasets directory is available at the path expected by the notebook.
     Run the notebook cells to view the examples, use the correlation-building function, and generate the plots.
