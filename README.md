@@ -58,7 +58,7 @@ The NuFIT datasets are not included in this repository. The following commands d
 
 Run the commands from the directory containing `correlations.nb`.
 
-### NuFIT 6.1
+### NuFIT v6.1
 
 
 ```bash
@@ -73,7 +73,7 @@ xz -d v61.release-TByes-IO.txt.xz
 
 cd ..
 ```
-### NuFIT 6.0
+### NuFIT v6.0
 ```bash
 
 mkdir -p datasets
