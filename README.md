@@ -4,7 +4,7 @@
 
 This repository contains materials for the publication *Correlations in Oscillation Data and Their Impact on Neutrino Mixing Models*. It provides a Mathematica notebook for studying neutrino mixing schemes, including TM₁, TM₂, and partial μ–τ reflection symmetry.
 
-The notebook includes usage examples and a function that constructs correlations involving up to six oscillation parameters from NuFIT correlation data. It also generates one-, two-, and three-dimensional plots of the resulting \(\chi^2\).
+The notebook includes usage examples and a function that constructs correlations involving up to six oscillation parameters from NuFIT correlation data. It also generates one-, two-, and three-dimensional plots of the resulting χ².
 
 ## Repository contents
 
@@ -25,7 +25,7 @@ In the rest of this description, the parameters are referred to using the standa
 
 ## Available NuFIT correlation data
 
-The analysis uses NuFIT \(\chi^2\) datasets for individual parameters and their correlations. The required one-dimensional tables are for θ₁₂, θ₁₃, θ₂₃, δCP, Δm²₂₁, and Δm²₃ℓ.
+The analysis uses NuFIT χ² datasets for individual parameters and their correlations. The required one-dimensional tables are for θ₁₂, θ₁₃, θ₂₃, δCP, Δm²₂₁, and Δm²₃ℓ.
 
 Available two-dimensional correlation tables cover:
 
