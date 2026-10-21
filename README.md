@@ -113,7 +113,7 @@ The NuFIT datasets are provided as text files containing tabulated χ² values. 
 
 If you use the code or other materials in this repository, please cite the associated publication:
 
-[J. Gluza, B. Karmakar, and S. Zieba]], “Correlations in Oscillation Data and Their Impact on Neutrino Mixing Models,” arXiv:XXXX.XXXXX [hep-ph].
+[J. Gluza, B. Karmakar, and S. Zieba]], “Correlations in Oscillation Data and Their Impact on Neutrino Mixing Models,” https://doi.org/10.48550/arXiv.2610.27270, arXiv:2610.27270 [hep-ph].
 
 The NuFIT data files included in this repository were obtained from www.nu-fit.org. If you use the NuFIT data or results, please also cite:
 
