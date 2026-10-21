@@ -105,7 +105,7 @@ Make sure the downloaded files and their paths match those expected by the Mathe
 3. Run the notebook cells to explore the examples, use the correlation-building function, and generate plots.
 
    
-## Data format
+## Data format 
 
 The NuFIT datasets are provided as text files containing tabulated χ² values. Depending on the dataset, the tables describe one-, two-, or three-dimensional distributions.
 
