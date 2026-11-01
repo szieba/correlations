@@ -96,7 +96,27 @@ ls -lh datasets
 ```
 Make sure the downloaded files and their paths match those expected by the Mathematica notebook.
 
+## Ready-to-use archives
 
+The repository also provides two ready-to-use `.tar.gz` archives:
+
+- **`correlationsv60.tar.gz`** contains `correlationsv60.nb` and a datasets folder with the NuFIT v6.0 data.
+
+- **`correlationsv61.tar.gz`** contains `correlationsv61.nb` and a datasets folder with the NuFIT v6.1 data.
+
+After extraction, the notebook and datasets are ready to use; no separate dataset download is required.
+
+To extract an archive on Linux, run the relevant command from the directory containing the archive:
+
+```bash
+tar -xzf correlationsv60.tar.gz
+```
+
+```bash
+
+tar -xzf correlationsv61.tar.gz
+```
+The contents will be extracted into the current directory.
 
 ## How to use
 
